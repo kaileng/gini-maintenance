@@ -1,0 +1,9 @@
+{
+    "id": "maintenance",
+    "name": "Maintenance",
+    "description": "Maintenance",
+    "version": "0.1.0",
+    "dependencies": {
+        "gini": "*"
+    }
+}
