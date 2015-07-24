@@ -1,7 +1,7 @@
 {
     "id": "maintenance",
     "name": "Maintenance",
-    "description": "Maintenance",
+    "description": "系统维护公告",
     "version": "0.1.0",
     "dependencies": {
         "gini": "*"
