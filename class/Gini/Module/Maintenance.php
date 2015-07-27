@@ -14,14 +14,9 @@ class Maintenance
 
         //维护模块开启
         if ($config['status'] && $config['status'] == 'on') {
-            //避免重定向跳转
+            //判断$route是为了避免gini cache执行失败，判断$route != $path是为了避免重定向跳转
             if ($route && $route != $path) {
                 \Gini\CGI::redirect($path);
-            }
-        }else{
-            //维护模块关闭时访问维护页自动跳转到首页
-            if ($route == $path) {
-                \Gini\CGI::redirect('/');
             }
         }
     }

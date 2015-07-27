@@ -15,6 +15,6 @@ maintenance
 	#  maintan_end_date: 维护到期时间
 	default:
 	  status: off
-	  maintan_end_date: 2015.7.22 12:00
+	  maintain_end_date: 2015.7.22 12:00
 	...
 	```
